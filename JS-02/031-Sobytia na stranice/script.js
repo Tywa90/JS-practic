@@ -57,7 +57,7 @@ const deleteElement = (e) => {
     console.log(e.currentTarget);
     console.log(e.type);
 };
-btn.addEventListener('click', deleteElement);
+// btn.addEventListener('click', deleteElement);
 overlay.addEventListener('click', deleteElement);
 btns.forEach(item => {
     item.addEventListener('click', deleteElement);
